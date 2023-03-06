@@ -1,5 +1,8 @@
-#rint_chessboard - Prints a chessboard.
-* @a: The chessboard to be printed.
+#include "main.h"
+
+/**
+ * print_chessboard - Prints a chessboard.
+ * @a: The chessboard to be printed.
  */
 void print_chessboard(char (*a)[8])
 {
@@ -13,3 +16,4 @@ _putchar(a[indx1][indx2]);
 _putchar('\n');
 }
 }
+
